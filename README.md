@@ -1,1 +1,2 @@
 # DataFrame-
+要在dataframe中取出索引，最后是把dataframe的某一列拿出来，也就是说是一个series，然后用list()或者tolist()方法把series转换成list，然后对于list中没有重复的value的时候，然后用list.index(value)可以返回value在list中的索引值，有重复value的话就会返回第一个索引值
